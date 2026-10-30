@@ -3,6 +3,8 @@ suppressPackageStartupMessages(library(dplyr))
 companyd <- read.csv("https://tanjakec.github.io/mydata/SHARE_PRICE.csv", header=T)
 # look at the data
 glimpse(companyd)
+# to see entire dataset can use View()
+View(companyd)
 
 # convert into factor type variables
 companyd[, 5] <- as.factor(companyd[, 5])
