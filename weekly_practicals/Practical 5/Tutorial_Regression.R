@@ -17,7 +17,7 @@ glimpse(companyd)
 # types and number of rows and columns, whereas summary gives information on the 
 # values of the variables themselves; means, medians, quartiles, max and min values
 
-attach(companyd)
+attach(companyd) #this enables u to look at variables in the dataframe companyd without needed to use $
 names(companyd)
 
 # task 1. 
